@@ -1,0 +1,32 @@
+dependencies {
+    compile group: 'org.lwjgl', name: 'lwjgl', version: '3.1.5'
+    compile group: 'org.lwjgl', name: 'lwjgl', version: '3.1.5', classifier: 'natives-windows'
+    compile group: 'org.lwjgl', name: 'lwjgl-glfw', version: '3.1.5'
+    compile group: 'org.lwjgl', name: 'lwjgl-glfw', version: '3.1.5', classifier: 'natives-windows'
+    compile group: 'org.lwjgl', name: 'lwjgl-opengl', version: '3.1.5'
+    compile group: 'org.lwjgl', name: 'lwjgl-opengl', version: '3.1.5', classifier: 'natives-windows'
+    compile group: 'org.lwjgl', name: 'lwjgl-openal', version: '3.1.5'
+    compile group: 'org.lwjgl', name: 'lwjgl-openal', version: '3.1.5', classifier: 'natives-windows'
+    compile group: 'org.lwjgl', name: 'lwjgl-stb', version: '3.1.5'
+    compile group: 'org.lwjgl', name: 'lwjgl-stb', version: '3.1.5', classifier: 'natives-windows'
+
+    //compile group: 'org.lwjgl', name: 'lwjgl-vulkan', version: '3.1.5'
+    //compile group: 'org.lwjgl', name: 'lwjgl-openvr', version: '3.1.5'
+    //compile group: 'org.lwjgl', name: 'lwjgl-ovr', version: '3.1.5'
+
+    // Compiled jme3 VR Fork
+    // https://github.com/jseinturier/jmonkeyengine
+    compile files("$projectDir/../lib/jme3/lib/jme3-core.jar")
+    compile files("$projectDir/../lib/jme3/lib/jme3-desktop.jar")
+    compile files("$projectDir/../lib/jme3/lib/jme3-lwjgl3.jar")
+    compile files("$projectDir/../lib/jme3/lib/jme3-effects.jar")
+
+    compile files("$projectDir/../lib/jme3/lib/jme3-jogg.jar")
+    compile group: 'de.jarnbjo', name: 'j-ogg-all', version: '1.0.0'
+
+    // UI Library
+    compile 'com.simsilica:lemur:1.10.1'
+    compile "com.simsilica:lemur-props:1.0.1"
+    compile "com.simsilica:lemur-proto:1.9.1"
+
+}

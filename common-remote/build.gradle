@@ -1,0 +1,15 @@
+dependencies {
+    compile files("$projectDir/../lib/jme3/lib/jme3-networking.jar")
+    
+    // Entity System
+    compile 'com.simsilica:zay-es:1.2.1'
+
+    // Entity System Integration with Bullet
+    compile 'com.jvpichowski:ZayES-Bullet:0.5.0'
+
+    // High Speed Entity Synchronization
+    compile 'com.simsilica:sim-ethereal:1.2.1'
+
+    // Network Entity System
+    compile 'com.simsilica:zay-es-net:1.2.1'
+}

@@ -1,0 +1,7 @@
+dependencies {
+    // Entity System
+    compile 'com.simsilica:zay-es:1.2.1'
+
+    // Entity System Integration with Bullet
+    compile 'com.jvpichowski:ZayES-Bullet:0.5.0'
+}

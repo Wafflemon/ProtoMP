@@ -1,0 +1,6 @@
+dependencies {
+    compile project(":common-ui")
+    compile project(":single-player")
+    compile project(":client")
+    compile project(":server")
+}
