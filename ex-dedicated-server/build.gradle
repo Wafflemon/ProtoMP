@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":ex-events")
+    compile project(":ex-common-ui")
+    compile project(":ex-server")
+}

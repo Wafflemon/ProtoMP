@@ -1,6 +1,0 @@
-dependencies {
-    compile project(":assets")
-    compile project(":common-ui")
-    compile project(":communication")
-    compile project(":entity-data")
-}

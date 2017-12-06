@@ -1,0 +1,7 @@
+dependencies {
+    compile project(":ex-events")
+    compile project(":ex-common-ui")
+    compile project(":ex-common-remote")
+    compile project(":ex-communication")
+    compile project(":ex-game")
+}

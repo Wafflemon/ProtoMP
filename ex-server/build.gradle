@@ -1,0 +1,10 @@
+dependencies {
+    compile project(":ex-common-ui")
+    compile project(":ex-common-remote")
+    compile project(":ex-logic")
+    compile project(":ex-communication")
+    compile project(":ex-entity-data")
+
+    // Temporarily needed so that HostState can start up a client connection to the hosted server.
+    compile project(":ex-client")
+}

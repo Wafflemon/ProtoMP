@@ -1,6 +1,0 @@
-dependencies {
-    compile project(":common-ui")
-    compile project(":common-remote")
-    compile project(":communication")
-    compile project(":game")
-}

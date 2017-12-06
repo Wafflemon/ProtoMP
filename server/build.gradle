@@ -1,9 +1,0 @@
-dependencies {
-    compile project(":common-ui")
-    compile project(":common-remote")
-    compile project(":logic")
-    compile project(":communication")
-
-    // Temporarily needed so that HostState can start up a client connection to the hosted server.
-    compile project(":client")
-}

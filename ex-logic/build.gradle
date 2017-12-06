@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":ex-events")
+    compile project(":ex-communication")
+    compile project(":ex-entity-data")
+}
