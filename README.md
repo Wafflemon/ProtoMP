@@ -1,3 +1,5 @@
+# Inactive
+
 # IsoSurfaceExample
 This demonstrates a multiplayer implementation for some of the JME3 extensions (https://github.com/Simsilica.)
 A modular architecture is used to separate the server and client implementations. This is just for fun and to
